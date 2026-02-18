@@ -6,9 +6,17 @@
     font-family: "IRANSans", sans-serif;
 }
 
+@font-face {
+    font-weight: 500;
+    font-family: yekan;
+    src: url(./assets/fonts/fonts/YekanBakhFaNum-SemiBold.woff);
+
+}
+
 body {
     color: #333;
     border-radius: 28px;
+    font-weight: 500;
 }
 
 /* Container */
@@ -20,7 +28,7 @@ body {
 
 /* Header */
 .header {
-    padding: 30px 0;
+    padding: 25px 0;
 }
 
 .header-content {
@@ -30,7 +38,21 @@ body {
 }
 
 
-.right{
+.container .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero .container .hero-content img {
+    padding-left: 500px;
+    display: flex;
+    width: 53.11px;
+    height: 53.11px;
+}
+
+.right {
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
@@ -57,19 +79,19 @@ body {
 
 .btn.outline {
     background: transparent;
-    color: #2f5bea;
+    color: black;
     margin-left: 10px;
 }
 
 /* Hero */
 .hero {
-    margin-top: 30px;
-    padding: 60px 0;
+    margin-top: -36px;
+    padding: 36px 0;
     border-radius: 16px;
     position: relative;
 }
 
-.hero-bg{
+.hero-bg {
     position: absolute;
     top: 0;
     left: 50%;
@@ -79,6 +101,7 @@ body {
     /* left: 1.77px; */
     border: 0.44px;
 }
+
 .hero-content {
     text-align: center;
 }
@@ -90,8 +113,9 @@ body {
 }
 
 .hero p {
-    font-size: 15px;
-    color: #666;
+    font-weight: 400px;
+    font-size: 25px;
+    color: #111111;
     margin-bottom: 30px;
 }
 
@@ -106,14 +130,113 @@ body {
 .category {
     padding: 8px 16px;
     border-radius: 8px;
-    border: 1px solid #ddd;
     background: #fff;
     cursor: pointer;
     font-size: 14px;
+    border: none;
+
+}
+
+.cat {
+    border: 1px solid #11111114;
+    width: 590px;
+    height: 46px;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .category.active {
     background: #2f5bea;
     color: #fff;
     border-color: #2f5bea;
+
+}
+
+.card {
+    width: 1097px;
+    height: 567px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.card .arrow1 {
+    position: absolute;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    margin: 236px 39px 236px 1023px;
+}
+
+.card .arrow2 {
+    position: absolute;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    margin: 232px 1019px 233px 35px;
+}
+
+.photo {
+    width: 1097px;
+    height: 508px;
+    border-radius: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .right-info {
+    position: absolute;
+    font-weight: 600;
+    font-family: yekan;
+    margin: 43px 39px 490px 850px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card .left-info {
+    color: #FFFFFF;
+    z-index: 1;
+    position: absolute;
+    font-weight: 600;
+    font-family: yekan;
+    margin: 42px 870px 499px 38px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.small-box {
+    width: 786px;
+    height: 139px;
+    border-image-source: linear-gradient(95.86deg, #FFFFFF 16.86%, #6864FF 52.32%, #FFFFFF 101.43%);
+    border-radius: 30px;
+    background-color: #7675DA;
+    top: 870px;
+    left: 246px;
+    margin-right: 320px;
+}
+
+.small-box .title {
+    color: #FFFFFF;
+    font-family: yekan;
+    font-weight: 900;
+    font-size: larger;
+    padding: 150px 250px;
+    gap: 1rem;
+}
+
+.small-box .desc{
+     color: #FFFFFF;
+    font-family: yekan;
+    font-weight: 500;
+    font-size: small;
+    padding: 22px 250px;
+    gap: 1rem;
 }
