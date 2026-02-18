@@ -7,10 +7,13 @@
 }
 
 @font-face {
-    font-weight: 500;
+    font-weight: 800;
+    font-weight: 600;
+    font-weight: 900;
     font-family: yekan;
+    src: url(./assets/fonts/fonts/YekanBakhFaNum-Bold.woff);
     src: url(./assets/fonts/fonts/YekanBakhFaNum-SemiBold.woff);
-
+    src: url(./assets/fonts/fonts/YekanBakhFaNum-ExtraBold.woff);
 }
 
 body {
@@ -45,8 +48,8 @@ body {
     gap: 30px;
 }
 
-.hero .container .hero-content img {
-    padding-left: 500px;
+.con {
+    margin-right: 350px;
     display: flex;
     width: 53.11px;
     height: 53.11px;
@@ -80,7 +83,7 @@ body {
 .btn.outline {
     background: transparent;
     color: black;
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 /* Hero */
@@ -146,6 +149,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 1.85px 3.85px -3px;
 }
 
 .category.active {
@@ -157,7 +161,7 @@ body {
 
 .card {
     width: 1097px;
-    height: 567px;
+    height: 430px;
     margin: 0 auto;
     position: relative;
     border-radius: 1rem;
@@ -215,28 +219,264 @@ body {
 .small-box {
     width: 786px;
     height: 139px;
-    border-image-source: linear-gradient(95.86deg, #FFFFFF 16.86%, #6864FF 52.32%, #FFFFFF 101.43%);
+    border: 1px solid #8e8cce;
+    border-color: linear-gradient(95.86deg, #FFFFFF 16.86%, #6864FF 52.32%, #FFFFFF 101.43%);
     border-radius: 30px;
-    background-color: #7675DA;
-    top: 870px;
-    left: 246px;
-    margin-right: 320px;
+    background: linear-gradient(#6864FF 52.32%, #FFFFFF 101.43%);
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    filter: blur(50%);
 }
 
 .small-box .title {
+    position: absolute;
     color: #FFFFFF;
     font-family: yekan;
     font-weight: 900;
     font-size: larger;
-    padding: 150px 250px;
+    /* padding: 5px 270px 5px 174px; */
+    padding: 1rem 14rem;
+    font-size: 25px;
+    display: flex;
+}
+
+.small-box .desc {
+    display: flex;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: yekan;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5rem 7rem;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: -36px;
+    padding: 36px 0;
+    width: 1400px;
+    height: 286px;
+    margin: 18px auto;
+}
+
+.next .titr {
+    display: flex;
+    width: 230px;
+    height: 70px;
+    color: #444BFF;
+    font-family: yekan;
+    font-weight: 900px;
+    font-size: 30px;
+    margin-right: 600px;
+}
+
+.next .view {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    background-color: #444BFF1A;
+    color: #444BFF;
+    font-family: yekan;
+    font-weight: 600px;
+    font-size: 13px;
+    margin-left: 144px;
+}
+
+
+.container-card {
+    width: 1097px;
+    height: 430px;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.card1 {
+    width: 400px;
+    height: 300px;
+}
+
+.card1 img {
+    display: flex;
+    width: 356px;
+    height: 243px;
+    border-radius: 28px;
+}
+
+.card1 .bt1 {
+    width: 125px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #C115741A;
+    color: #C11574;
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+.card1 .bt2 {
+    width: 80px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #444BFF1A;
+    color: #444BFF;
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+.card1 h3 {
+    font-family: yekan;
+    font-size: 14px;
+    color: #111111;
+    font-style: normal;
+    margin-top: 0.75rem;
+}
+
+.card1 p {
+    font-family: yekan;
+    font-size: 13px;
+    color: #667085;
+    font-style:normal;
+    margin-top: 0.75rem;
+}
+
+.card2 {
+     width: 400px;
+    height: 300px;
+}
+
+.card2 .but1{
+     width: 125px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #444BFF1A;
+    color: #444BFF;
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+.card2 .but2 {
+    width: 40px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0278471A;
+    color: #027847;
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+.card2 img {
+    display: flex;
+    width: 356px;
+    height: 243px;
+    border-radius: 28px;
+}
+
+.card2 p {
+    font-family: yekan;
+    font-size: 13px;
+    color: #667085;
+    font-style:normal;
+    margin-top: 0.75rem;
+}
+
+.card3 {
+     width: 400px;
+    height: 300px;
+}
+.card2 h3 {
+    font-family: yekan;
+    font-size: 14px;
+    color: #111111;
+    font-style: normal;
+    margin-top: 0.75rem;
+}
+
+.card3 .b1{
+     width: 61px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #C115741A;
+    color: #C11574;
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+.card3 .b2 {
+    width: 52px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: #444BFF1A;
+    color: #444BFF;
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+
+.card3 img {
+    display: flex;
+    width: 356px;
+    height: 243px;
+    border-radius: 28px;
+}
+
+.card3 h3 {
+    font-family: yekan;
+    font-size: 14px;
+    color: #111111;
+    font-style: normal;
+    margin-top: 0.75rem;
+}
+.card3 p {
+    font-family: yekan;
+    font-size: 13px;
+    color: #667085;
+    font-style:normal;
+    margin-top: 0.75rem;
+}
+
+.card1 .person{
+    width: 42px;
+    height: 44px;
+    border-radius: 59px;
+    display: flex;
     gap: 1rem;
 }
 
-.small-box .desc{
-     color: #FFFFFF;
-    font-family: yekan;
-    font-weight: 500;
-    font-size: small;
-    padding: 22px 250px;
-    gap: 1rem;
+.card1 .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -165px;
+    margin-top: -31px;
+    color: #000000;
+}
+
+.card1 .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+     margin-right: -165px;
+    margin-top: 4px;
+    color: #667085;
 }
