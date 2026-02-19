@@ -166,6 +166,7 @@ body {
     position: relative;
     border-radius: 1rem;
     z-index: 1;
+    margin-top: 1rem;
 }
 
 .card .arrow1 {
@@ -191,6 +192,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: 1.25rem;
 }
 
 .card .right-info {
@@ -258,7 +260,7 @@ body {
     margin-top: -36px;
     padding: 36px 0;
     width: 1400px;
-    height: 286px;
+    height: 114px;
     margin: 18px auto;
 }
 
@@ -269,13 +271,14 @@ body {
     color: #444BFF;
     font-family: yekan;
     font-weight: 900px;
-    font-size: 30px;
+    font-size: 26px;
     margin-right: 600px;
 }
 
 .next .view {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     width: 100px;
     height: 41px;
@@ -479,4 +482,65 @@ body {
      margin-right: -165px;
     margin-top: 4px;
     color: #667085;
+    font-size: 12px;
+}
+
+.card2 .person2{
+    width: 42px;
+    height: 44px;
+    border-radius: 59px;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+.card2 .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -165px;
+    margin-top: -31px;
+    color: #000000;
+
+}
+
+.card2 .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+     margin-right: -165px;
+    margin-top: 4px;
+    color: #667085;
+    font-size: 12px;
+}
+
+.card3 .person3{
+    width: 42px;
+    height: 44px;
+    border-radius: 59px;
+    display: flex;
+    gap: 1rem;
+}
+
+.card3 .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -165px;
+    margin-top: -31px;
+    color: #000000;
+}
+
+.card3 .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+     margin-right: -165px;
+    margin-top: 4px;
+    color: #667085;
+    font-size: 12px;
 }
