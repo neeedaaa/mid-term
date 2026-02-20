@@ -678,3 +678,153 @@ body {
     rotate: 115deg;
     filter: blur(7px);
 }
+
+.container-product {
+    width: 1100px;
+    height: 500px;
+    top: 2270px;
+    left: 85px;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.container-product .carddd1 {
+    width: 356px;
+    height: 490px;
+    margin-right: 10rem;
+}
+
+.container-product .carddd1 img {
+    width: 356px;
+    height: 243px;
+    top: 0px;
+    left: 740px;
+    border-radius: 26px;
+}
+
+.carddd1 .nature1 {
+    width: 96px;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: #C115741A;
+    color: #C11574;
+    font-size: 16px;
+    margin-top: 0.75rem;
+}
+
+.carddd1 .nature2 {
+    width: 88px;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: #444BFF1A;
+    color: #444BFF;
+    font-size: 16px;
+}
+
+.carddd1 h3 {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-family: yekan;
+    color: #111111;
+}
+
+.carddd1 p {
+    font-size: 16px;
+    font-family: yekan;
+    margin-top: 0.5rem;
+    color: #667085;
+}
+
+.carddd2 {
+    width: 356px;
+    height: 473px;
+    margin-right: 1rem;
+}
+
+.carddd2 img {
+    width: 353px;
+    height: 243px;
+    border-radius: 26px;
+}
+
+.carddd2 .man1 {
+    width: 107px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #444BFF1A;
+    border: none;
+    color: #444BFF;
+    font-size: 16px;
+}
+
+.carddd2 .man2 {
+    width: 40px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #0278471A;
+    border: none;
+    font-size: 16px;
+    color: #027847;
+}
+
+.carddd2 h3 {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-family: yekan;
+    color: #111111;
+}
+
+.carddd2 p {
+    font-size: 16px;
+    font-family: yekan;
+    color: #667085;
+    margin-top: 0.5rem;
+}
+
+.carddd3 {
+    width: 356px;
+    height: 462px;
+    margin-right: 1rem;
+}
+
+.carddd3 img {
+    width: 353px;
+    height: 243px;
+    border-radius: 26px;
+}
+
+.carddd3 .phone1 {
+    width: 61px;
+    height: 34px;
+    background-color: #C115741A;
+    border-radius: 8px;
+    border: none;
+    color: #C11574;
+    font-size: 16px;
+}
+
+.carddd3 .phone2 {
+    width: 52px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #444BFF1A;
+    border: none;
+    color: #444BFF;
+    font-size: 16px;
+}
+
+.carddd3 h3 {
+    color: #111111;
+    font-size: 17px;
+    font-family: yekan;
+    margin-top: 1rem;
+}
+
+.carddd3 p {
+    font-size: 15px;
+    color: #667085;
+    font-family: yekan;
+    margin-top: 0.5rem;
+}
