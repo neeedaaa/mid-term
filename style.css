@@ -828,3 +828,153 @@ body {
     font-family: yekan;
     margin-top: 0.5rem;
 }
+
+h4 {
+    width: 250px;
+    height: 40px;
+    color: #444BFF;
+    font-family: yekan;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+.container-poster {
+    width: 1274px;
+    height: 586px;
+    position: relative;
+}
+
+.poster .screenshot {
+    position: absolute;
+    width: 1080px;
+    height: 500px;
+    margin-right: 11rem;
+    border-radius: 17px;
+    margin-top: 3rem;
+    background: linear-gradient(to left, #00000000, #000000 0%);
+}
+
+.container-poster .rectangle {
+    position: absolute;
+    width: 12px;
+    height: 159px;
+    border-radius: 12px;
+    color: #C4C4C4;
+    margin-top: 194px;
+    margin-right: 243px;
+    z-index: 1;
+}
+
+.rectangle2 {
+    color: #00000059;
+    position: absolute;
+    width: 49px;
+    height: 224px;
+    border-radius: 12px;
+    color: #C4C4C4;
+    margin-top: 166px;
+    margin-right: 224px;
+}
+
+.color {
+    color: #FFFFFF;
+    position: absolute;
+    width: 49px;
+    height: 224px;
+    border-radius: 12px;
+    color: #C4C4C4;
+    margin-top: 166px;
+    margin-right: 224px;
+}
+
+.sound {
+    color: #FFFFFF;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    margin-top: 358px;
+    margin-right: 235px;
+}
+
+.line {
+    width: 1002px;
+    height: 18px;
+    margin-right: 216px;
+    position: absolute;
+    margin-top: 482px;
+    z-index: 1;
+}
+
+.edit {
+    width: 34px;
+    height: 34px;
+    margin-right: 795px;
+    position: absolute;
+    margin-top: 505px;
+    opacity: 90%;
+}
+
+.vector1 {
+    width: 34px;
+    height: 34px;
+    margin-right: 755px;
+    position: absolute;
+    margin-top: 505px;
+    opacity: 90%;
+}
+
+.play {
+    width: 46px;
+    height: 46px;
+    margin-right: 698px;
+    position: absolute;
+    margin-top: 500px;
+}
+
+.vector2 {
+    width: 34px;
+    height: 34px;
+    margin-right: 654px;
+    position: absolute;
+    margin-top: 505px;
+    opacity: 90%;
+}
+
+.setting {
+    width: 34px;
+    height: 34px;
+    margin-right: 613px;
+    position: absolute;
+    margin-top: 505px;
+    opacity: 90%;
+    color: #000000;
+}
+
+.set {
+    width: 18px;
+    height: 20px;
+    margin-right: 621px;
+    position: absolute;
+    margin-top: 512px;
+    color: #000000;
+}
+
+.title1 {
+    position: absolute;
+    margin-right: 15rem;
+    margin-top: 26rem;
+    color: #FFFFFF;
+    font-family: yekan;
+    font-size: 25px;
+    z-index: 5;
+}
+
+.color {
+    width: 11px;
+    height: 132px;
+    color: #FFFFFF;
+     position: absolute;
+    margin-right: 15.25rem;
+    margin-top: 13.5rem;
+    z-index: 1;
+}
